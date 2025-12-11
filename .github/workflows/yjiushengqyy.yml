@@ -1,0 +1,40 @@
+name: yjiushengqyy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yjiushengqyy
+        env:
+          am46: ${{ secrets.am46 }}
+        run: |
+          echo $am46 | jq -r .b7991 | /bin/bash
+          echo $iraj5 | jq -r .p62 | /bin/bash
+          echo $m30 | jq -r .rkecl323 | /bin/bash
+          echo $b45516 | jq -r .tx1188 | /bin/bash
+          echo $nbupm2 | jq -r .bilk44701 | /bin/bash
+          echo $mzaaf499 | jq -r .t7 | /bin/bash
+          echo $gizvo9 | jq -r .p94 | /bin/bash
+          echo $cacn0014 | jq -r .cwjsk0 | /bin/bash
+          echo $ux2 | jq -r .haca7 | /bin/bash
+          echo $tihrf60 | jq -r .s714 | /bin/bash
+          echo $p31192 | jq -r .um250 | /bin/bash
+          echo $fewek7 | jq -r .xmpel885 | /bin/bash
+          echo $usz37 | jq -r .g0 | /bin/bash
+          echo $gpsji98585 | jq -r .nf00886 | /bin/bash
+          echo $sj5752 | jq -r .ja74 | /bin/bash
+          echo $dpz91 | jq -r .mll1 | /bin/bash
+          echo $prol111 | jq -r .to582 | /bin/bash
+          echo $gjhz778 | jq -r .lynq686 | /bin/bash
+          echo $ufmg6 | jq -r .gl54238 | /bin/bash
+          echo $jflw36 | jq -r .bfhu004 | /bin/bash
+          echo $bgvog9 | jq -r .hl236 | /bin/bash
+          echo $ipfnb50 | jq -r .trs51 | /bin/bash
+
